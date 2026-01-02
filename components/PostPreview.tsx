@@ -11,6 +11,7 @@ interface PostData {
     likes?: number; // New
     commentsCount?: number; // New
     timestamp?: string; // New
+    videoUrl?: string | null; // New (Fixed build error)
     type?: string;
 }
 
