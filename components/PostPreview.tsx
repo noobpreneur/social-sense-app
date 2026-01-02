@@ -43,7 +43,6 @@ export function PostPreview({ data }: { data: PostData }) {
                                     className="w-full h-full object-cover"
                                     controls
                                     playsInline
-                                    referrerPolicy="no-referrer"
                                 />
                             </div>
                         ) : (
